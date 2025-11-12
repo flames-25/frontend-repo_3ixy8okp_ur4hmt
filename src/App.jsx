@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import { Menu, X, Star, Truck, ShieldCheck, Couch, Leaf, Flame, Droplets, Snowflake } from 'lucide-react'
+import { Menu, X, Star, Truck, ShieldCheck, Sofa, Leaf, Flame, Droplets, Snowflake } from 'lucide-react'
 
 function useInView(options = { threshold: 0.12 }) {
   const ref = useRef(null)
@@ -192,7 +192,7 @@ const Products = () => {
 const WhyUs = () => {
   const features = [
     { title: 'Qualité scandinave', icon: ShieldCheck, desc: 'Matériaux durables, finitions haut de gamme.' },
-    { title: 'Confort & Design', icon: Couch, desc: 'Ergonomie, chaleur douce, esthétique épurée.' },
+    { title: 'Confort & Design', icon: Sofa, desc: 'Ergonomie, chaleur douce, esthétique épurée.' },
     { title: 'Livraison partout', icon: Truck, desc: 'Réseau logistique fiable en France & Europe.' },
     { title: 'Service Premium', icon: Star, desc: 'Accompagnement de la commande à l’installation.' },
   ]
